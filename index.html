@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            Weather
+        </title>
+        <link rel = "stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="gif.gif" type="image/gif" sizes="16x16">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1> Weather  <img src = "https://i.pinimg.com/originals/6f/02/80/6f0280219049121f3f9c7a1b6b4206b5.gif"> </h1>
+        <div class = "yes">
+        <label>  Enter Place : </label>
+        <input type = "text" placeholder=" Enter Here" value = "" id = "place">
+        <button class = "btn-grad" onclick="getPlace()">Submit</button>
+        </div>
+
+        <div class = "card">
+            <div class = "words">
+            <span>Name : </span>
+            <span id = "placename"></span>
+            <br>
+            <span>Country : </span>
+            <span id = "country"></span>
+            <br>
+            <span>Latitude : </span>
+            <span id = "lat"></span>
+            <br>
+            <span>Longitude : </span>
+            <span id = "lon"></span>
+            <br>
+            <span>Temperature : </span>
+            <span id = "temp"></span>
+            <br>
+            <span>Windspeed : </span>
+            <span id = "windspeed"></span>
+            </div>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
